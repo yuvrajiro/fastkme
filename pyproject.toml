@@ -13,7 +13,17 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-#[project.urls]
-#Homepage = "https://github.com/pypa/sampleproject"
-#Issues = "https://github.com/pypa/sampleproject/issues"
-#
+[project.optional-dependencies]
+dev = [
+    "black[jupyter]",
+    "build",
+    "coverage",
+    "cython >=0.29",
+    "packaging",
+    "pre-commit",
+    "pytest",
+    "ruff",
+    "setuptools-scm >=6.4",
+    "tomli",
+    "tox",
+]
