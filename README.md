@@ -9,7 +9,7 @@ to be used for Nearest Neighbors Weighted or Kenel Survival Estimator.
 ## Installation
 
 ```bash
-pip install fastkme
+pip install git+https://github.com/yuvrajiro/fastkme
 ```
 
 ## Usage
