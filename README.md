@@ -27,19 +27,7 @@ unique_time, survival_prob = kaplan_meier_estimator(time, event)
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Citation
 
-If you use this work, please cite the following paper:
-
-```
-@misc{goswami2023areanorm,
-      title={Area-norm COBRA on Conditional Survival Prediction}, 
-      author={Rahul Goswami and Arabin Kr. Dey},
-      year={2023},
-      eprint={2309.00417},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
 ```
 
 ## Acknowledgments
